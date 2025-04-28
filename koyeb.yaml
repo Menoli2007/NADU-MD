@@ -1,6 +1,6 @@
-name: khan-md
+name: nadu-md
 services:
-  - name: khan-md-service
+  - name: nadu-md-service
     type: web
     ports:
       - 5000
