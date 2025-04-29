@@ -4,7 +4,7 @@ const { cmd } = require("../command");
 
 cmd({ on: "body" }, async (conn, m, msg, { from, body }) => {
   try {
-    const jsonUrl = "https://raw.githubusercontent.com/JawadYT36/KHAN-DATA/main/autovoice.json";
+    const jsonUrl = "https://raw.githubusercontent.com/NADU-v/NADU-MD-v.2/refs/heads/main/my_data/autovoice.json";
     const res = await axios.get(jsonUrl);
     const voiceMap = res.data;
 
